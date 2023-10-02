@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right,
+     rgb(164, 20, 226) , 
+     rgb(15, 122, 210));
+     box-shadow: inset -20px 15px 250px 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.img{
+    height: 500px;
+    width: 500px;
+    background-image: url(img1.jpeg);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 5%;
+    top: 16%;
+    box-shadow: -4px 4px 50px -6px;
+    border-radius: 10px;
+}
+.box{
+    height: 80vh;
+    width: 93%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px 5px;
+    display: flex;
+
+}
+span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 50px;
+    color: antiquewhite;
+}
+.nav{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    margin-top: 10px;
+}
+.one{
+    color: antiquewhite;
+    display: inline-block;
+    height: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.Sing{
+    position: absolute;
+    right: 15%;
+    font-size: large;
+    /* border: 2px solid rgba(240, 248, 255, 0.178); */
+    border-radius: 4px;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 3px;
+    background-color: rgba(240, 248, 255, 0.178);
+    box-shadow: 0px 0px 5px 1.5px ;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.Sing:hover{
+    background-color: rgba(187, 206, 222, 0.373);
+}
+.text{
+    width: 470px;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    color: rgba(240, 239, 238, 0.86);
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+    word-spacing: 3px;
+}
+h3{
+    color: rgba(0, 0, 0, 0.729);
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    word-spacing: 4px;
+}
+.one1{
+    margin: 25px 44px;
+    padding: 8px 35px 8px 35px;
+    /* border: solid rgba(142, 139, 139, 0.822) 3px; */
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: rgba(0, 0, 0, 0.521);
+    box-shadow: 0px 0px 5px 3px ;
+}
+.one1:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:antiquewhite;
+}
+.two2{
+    padding: 8px 35px 8px 35px;
+    /* border: solid rgba(142, 139, 139, 0.822) 3px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px ;
+}
+.two2:hover{
+    cursor: pointer;
+    background-color:antiquewhite;
+    color: rgba(0, 0, 0, 0.521);
+}
